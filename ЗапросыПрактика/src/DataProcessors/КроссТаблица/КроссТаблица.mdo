@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3b599f0-d79e-4bde-a361-3410ae9b6f38">
+  <producedTypes>
+    <objectType typeId="a3ebd52b-8fdd-4fb6-b214-85c8e68a9382" valueTypeId="62bb4d5a-86bb-443c-a054-fea83ecb9d8a"/>
+    <managerType typeId="3e6dc815-96eb-4d76-9f02-44ea76d4b23f" valueTypeId="479eb0ce-8620-4960-bf8e-b895994ecc0d"/>
+  </producedTypes>
+  <name>КроссТаблица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кросс таблица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КроссТаблица.Form.Форма</defaultForm>
+  <forms uuid="69696e67-aea8-445a-9218-b0feba635e53">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="64d1270f-b354-4818-97ae-7ccba12260a8">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

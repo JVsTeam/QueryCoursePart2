@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f448d56-be50-40be-9f96-f45de6300143">
+  <name>Запросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Пользователи</content>
+  <content>DataProcessor.СозданиеНоменклатуры</content>
+  <content>DataProcessor.КроссТаблица</content>
+  <content>DataProcessor.КарточкаКонтрагента</content>
+  <content>DataProcessor.ПродажиПоТоварамИКонтрагентам</content>
+  <content>DataProcessor.ЗамерПроизводительности</content>
+  <content>DataProcessor.ПродажиТоваровЗаПериод</content>
+</mdclass:Subsystem>

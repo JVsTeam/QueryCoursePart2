@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a8b0cfc-53a7-4399-80c5-192452fac5b8">
+  <producedTypes>
+    <objectType typeId="a5d59506-9ac7-4c0c-a39d-78fdcb6ecd2a" valueTypeId="059bea64-f26e-4d63-a403-a0901dfd7920"/>
+    <managerType typeId="bb825e6e-cb47-4a43-a94c-b04d99f8c656" valueTypeId="a2a26e7b-68b6-4bb8-99da-28a7d4d3fa7a"/>
+  </producedTypes>
+  <name>ПродажиПоТоварамИКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи по товарам и контрагентам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПродажиПоТоварамИКонтрагентам.Form.Форма</defaultForm>
+  <forms uuid="965cfeb2-4650-421f-b748-55936de08240">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6e636309-c132-42d8-b37d-fc148310a01e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="45758f6a-1ebf-4600-aba5-e9bc7ab78853">
+    <name>Макет1</name>
+  </templates>
+</mdclass:DataProcessor>

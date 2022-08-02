@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c3e3e11-62a0-47f6-a676-47fa526ca34b">
+  <producedTypes>
+    <objectType typeId="7ae34e36-0d98-46ed-9ced-cc9b18e536e0" valueTypeId="47895b41-1def-4138-92bd-c7b13fdd2a45"/>
+    <refType typeId="fef763d8-8a67-451a-9d97-6ba648d14f81" valueTypeId="bb2720f5-afc8-43a9-8971-d2172e2fe103"/>
+    <selectionType typeId="154ee5d7-bca7-4c9d-b6a2-0421de21cd4d" valueTypeId="7cee3ef5-c710-4c91-bcaf-b2dc9d953d6f"/>
+    <listType typeId="1147233d-8002-4c68-bfd9-d457c590b08b" valueTypeId="dcc0b856-815c-4345-ac21-90b34a6bdc6a"/>
+    <managerType typeId="f83fd8ee-c8b8-4162-8355-ccd4df5ab4e0" valueTypeId="70414a23-d1fa-47e9-9cbf-76669b347bf0"/>
+  </producedTypes>
+  <name>РасчетныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РасчетныеСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0c99e000-d4b7-482c-b82e-5f2ea0080c66">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="56a0f26e-56a9-4c73-98d8-21ff6c7272b3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

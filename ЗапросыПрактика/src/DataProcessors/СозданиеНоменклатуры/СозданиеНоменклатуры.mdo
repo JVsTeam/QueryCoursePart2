@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b1a6b11-9133-468c-99cf-422332d9cbea">
+  <producedTypes>
+    <objectType typeId="37f24357-9f5a-43d3-bfdf-4fa5a778667e" valueTypeId="4972d91b-face-4371-aeba-94c3261bc377"/>
+    <managerType typeId="8c5dbb6c-7615-45dc-82b6-627dfe74d293" valueTypeId="d3d536e2-cd45-4b1d-8078-4ae71230fec6"/>
+  </producedTypes>
+  <name>СозданиеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеНоменклатуры.Form.Форма</defaultForm>
+  <attributes uuid="c6e7c2f0-6d88-44b0-8fff-4e7dba13b6b3">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <forms uuid="3995df99-9787-440c-a776-c5fb14f21f43">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

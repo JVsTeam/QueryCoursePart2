@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bcf5e5f-39ab-40e2-a049-cf9cf39e0740">
+  <producedTypes>
+    <objectType typeId="31fa48ae-97cf-41d1-9d9b-581e264d3fb1" valueTypeId="4f43b03f-a086-4af5-a0da-ebf2b957cdf5"/>
+    <refType typeId="ed02aed0-e14b-4c5a-bb61-3c5e88dc505e" valueTypeId="7b9e344a-127d-40c9-b98d-fa1f4cac6563"/>
+    <selectionType typeId="cc35f1c2-29b0-4c3f-a841-91c7a1982f53" valueTypeId="d50ea863-0822-4018-83a5-ffd368d6d532"/>
+    <listType typeId="acf25731-54a4-440a-84ce-aa16751388d1" valueTypeId="86853ad1-ccfe-4ad8-8357-39f9b744afa0"/>
+    <managerType typeId="142014cb-f671-46fd-94ba-29f8922657d3" valueTypeId="75d1ee77-ffcb-45c4-ac95-de3029f04da3"/>
+  </producedTypes>
+  <name>УстановкаЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦенНоменклатуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенНоменклатуры.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="63ec1885-c960-4572-8a0f-f64778e20ef6">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d5ee3774-90b2-4e92-b97f-b4229709545a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="6df7035e-6b2b-4ea2-a676-f58d2d0810cf">
+    <producedTypes>
+      <objectType typeId="9da2e4af-0764-4909-b025-fc4f0623c591" valueTypeId="9a12a6bc-38eb-49b6-95cf-b18c299d0cc1"/>
+      <rowType typeId="0822ea29-70e2-44bf-ae24-0ae21cd1125f" valueTypeId="e9238c0a-131f-41ca-bc66-0ddba102a964"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="2052d015-1b72-40e0-9c54-c18c7438125a">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7dfc6a3a-af7c-45f6-9f6e-0efb4b7ef0bb">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

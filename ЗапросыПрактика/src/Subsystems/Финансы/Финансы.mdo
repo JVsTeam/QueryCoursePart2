@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02d75d0e-210b-4a18-bd32-0d59492cb65c">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Организации</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>Document.ПоступлениеДенежныхСредств</content>
+  <content>AccumulationRegister.ВзаиморасчетыСКонтрагентами</content>
+  <content>Document.ПлатежноеПоручение</content>
+  <content>Catalog.Банки</content>
+  <content>Catalog.РасчетныеСчета</content>
+  <content>DataProcessor.КроссТаблица</content>
+</mdclass:Subsystem>

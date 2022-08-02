@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a424c178-8824-49e8-87aa-a03ae015a5a3">
+  <name>ЗапросыПрактическиеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профессиональная разработка запросов в 1С:Предприятие 8</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2524d129-4ca6-4b6d-963d-d3389081a5fd"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dcd4ae93-543c-4fb4-ab1a-ecfe90edfd18"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="86e3fdd4-a508-4901-aa0c-2fb1c3b2a210"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f6fcde9a-0e4c-4b42-a153-84be4e899a7b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e0d813bb-40ea-46ec-a53f-0e1355fa1d2e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="91235c72-e557-4100-acb1-0bcc6e3a6a75"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="97ee44f7-8e91-4886-b71c-24b4f4e323be"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>http://курсы-по-1с.рф/</vendor>
+  <version>1.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="6e4e6f8f-93b1-494f-9f7d-ef5fa6b32a96">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <subsystems>Subsystem.КадровыйУчет</subsystems>
+  <subsystems>Subsystem.Запросы</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.РасчетныеСчета</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ТипыЦен</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПлатежноеПоручение</documents>
+  <documents>Document.ПоступлениеДенежныхСредств</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <dataProcessors>DataProcessor.СозданиеНоменклатуры</dataProcessors>
+  <dataProcessors>DataProcessor.КроссТаблица</dataProcessors>
+  <dataProcessors>DataProcessor.КарточкаКонтрагента</dataProcessors>
+  <dataProcessors>DataProcessor.ПродажиПоТоварамИКонтрагентам</dataProcessors>
+  <dataProcessors>DataProcessor.ЗамерПроизводительности</dataProcessors>
+  <dataProcessors>DataProcessor.ПродажиТоваровЗаПериод</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.КадроваяИстория</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКонтрагентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+</mdclass:Configuration>

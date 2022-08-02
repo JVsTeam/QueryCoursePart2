@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a40e82-b0f3-4dbb-bf91-0feebdb47e05">
+  <producedTypes>
+    <objectType typeId="b8a312d5-ab68-4245-a1bf-866af1dae2f5" valueTypeId="28f70b1f-f27c-46f7-b93a-8ea833f632c5"/>
+    <managerType typeId="0d79e898-d0be-4f51-9f37-f2ed9680ad33" valueTypeId="c3cdd941-f3ed-4ff9-b1e1-47ad70540b1e"/>
+  </producedTypes>
+  <name>ЗамерПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замер производительности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗамерПроизводительности.Form.Форма</defaultForm>
+  <forms uuid="a8372892-c807-43e5-a41c-cb4f2237a7f3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

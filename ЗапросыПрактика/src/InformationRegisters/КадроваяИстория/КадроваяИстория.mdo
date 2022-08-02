@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="794f2d6d-159a-43cc-aa60-0c6f155bd0e8">
+  <producedTypes>
+    <selectionType typeId="abc580d5-c3b2-4d57-ab5f-dd624e37e1f7" valueTypeId="638a40da-74eb-4732-b182-622eb1a6f2ef"/>
+    <listType typeId="c6fee2bb-22a7-4cb0-a0a8-76576d6f2444" valueTypeId="d9500498-e5f1-48dc-976e-0cf4aa9f4fa6"/>
+    <managerType typeId="31a19831-a3b7-4185-9504-1e1263ca86a3" valueTypeId="20502209-45e5-45f2-b548-39b243571f0e"/>
+    <recordSetType typeId="a6d55d36-fa58-4eea-8248-b2f9a15bc140" valueTypeId="e8d997fa-1016-44b8-87fd-7e3028cd9d3c"/>
+    <recordKeyType typeId="ea2afb84-a7fd-48a9-a481-49187f75e5d3" valueTypeId="f18130dd-82aa-4f38-a741-d057c07827e5"/>
+    <recordType typeId="21b9b798-bfc8-4bea-bf63-3faaae4d71a7" valueTypeId="c5f37cfb-d0fe-44d6-bd9e-7a420a55a417"/>
+    <recordManagerType typeId="2fae7fa6-d418-4034-94b8-7076337af9f6" valueTypeId="97e3b9df-371c-4019-b172-4343d4685bbe"/>
+  </producedTypes>
+  <name>КадроваяИстория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровая история</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7f26e19e-924b-45f5-a969-86c4dbce4258">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7c9c81a4-602f-48a3-b97d-6ea063e945c7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
